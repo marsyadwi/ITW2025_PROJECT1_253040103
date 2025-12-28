@@ -738,6 +738,90 @@ nav ul li a:hover {
   line-height: 22px;
 }
 
+/* ===================== */
+/* ===== SKILL ========= */
+/* ===================== */
+
+.skill {
+  padding: 100px 15px;
+  background: #0c273a; /* sama seperti education */
+  min-width: 80vh;
+}
+
+/* Judul Skill */
+.skill .h1 {
+  font-weight: bold;
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 5rem;
+  transition: 1s;
+  color: #ededed;
+}
+
+.skill .h1:hover {
+  transform: scale(1.1);
+  color: #0491c9;
+}
+
+/* Container skill */
+.skill-container {
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2.5rem;
+}
+
+/* Box skill */
+.skill-box {
+  background-color: #081b29;
+  border: 3px solid #ededed;
+  padding: 20px 30px;
+  border-radius: 3rem;
+  margin-bottom: 15px;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.skill-box:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 18px #ededed;
+}
+
+/* Judul skill */
+.skill-box h3 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: white;
+}
+
+/* Deskripsi skill */
+.skill-box p {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.7;
+  color: #ededed;
+}
+
+/* ===================== */
+/* RESPONSIVE SKILL */
+/* ===================== */
+
+@media (max-width: 991px) {
+  .skill {
+    padding-bottom: 7rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .skill-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+
 /* scrollbar */
 
 ::-webkit-scrollbar {
