@@ -838,6 +838,46 @@ input.btn:hover {
   margin-top: 2rem;
 }
 
+/* SKILLS */
+.skills {
+  padding: 120px 10%;
+}
+
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.skill-box {
+  background: #0c273a;
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.skill-box i {
+  font-size: 40px;
+  color: #00abf0;
+}
+
+/* ===================== */
+/* RESPONSIVE */
+/* ===================== */
+
+@media (max-width: 991px) {
+  .skill {
+    padding-bottom: 7rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .skill-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+
 .footer {
   position: relative;
   bottom: 0;
